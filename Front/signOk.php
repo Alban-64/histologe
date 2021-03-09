@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-//echo 'ici : '.$_SESSION['sign_valid'];
-
 if ($_SESSION['sign_valid'] != 'ok') {
   header("Location:Home");
 }
