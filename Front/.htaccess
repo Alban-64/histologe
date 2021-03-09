@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteBase /dev/DS_Pro/
+RewriteRule Home     index.html
+RewriteRule signale     _sign.php
+RewriteRule Enregistre  signFinish2.php
+RewriteRule Qui   quisommesnous.php
+RewriteRule Contact     contact.php
+RewriteRule Aide aide.php
+RewriteRule Histologe redir.php
+RewriteRule Signalement signOk.php
+RewriteRule CGU cgu.php
+RewriteRule _adm/back-office _adm/home.php
+RewriteRule Complement _SignComp.php
+RewriteRule morePhotos  addPhotos.php
+RewriteRule Message _csend.php
+RewriteRule Video video.php
+RewriteRule CAF homecaf.php?sce
+RewriteRule Chiffres stats.php
+RewriteRule Plan-du-site plandusite.php
+RewriteRule Transmis contactSucc.php 
+RewriteRule Error _errors.php 
+RewriteRule Connect connect.php 
